@@ -3,7 +3,8 @@ import * as cheerio from 'cheerio';
 import https from 'https';
 
 export async function scrapeBCV() {
-  const url = "https://www.bcv.org.ve/";
+// En lib/scraper.ts
+const url = `https://www.bcv.org.ve/?t=${new Date().getTime()}`;
   const agent = new https.Agent({ rejectUnauthorized: false });
 
   try {
