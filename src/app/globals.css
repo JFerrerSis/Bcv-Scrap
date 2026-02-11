@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Ocultar el indicador de Next.js (la letra N) */
+next-route-announcer,
+#nextjs-portal,
+.nextjs-static-indicator-base {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

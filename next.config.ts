@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: true,
+  // Borramos devIndicators de aquí para evitar el error
 };
 
 export default nextConfig;
