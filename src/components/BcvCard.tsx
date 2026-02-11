@@ -31,12 +31,12 @@ export default function BcvCard() {
           <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mb-4 shadow-inner">
             <FaDollarSign className="text-green-600 text-2xl" />
           </div>
-          <span className="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em] mb-2">Dólar Oficial</span>
+          <span className="text-[10px] font-black text-gray-800 uppercase tracking-[0.2em] mb-2">Dólar Oficial</span>
           <div className="flex items-baseline gap-2">
             <span className="text-4xl sm:text-5xl font-black text-slate-800 tracking-tighter">
               {data?.dolar?.toFixed(2)}
             </span>
-            <span className="text-sm font-bold text-slate-400 uppercase">Bs</span>
+            <span className="text-sm font-bold text-slate-800 uppercase">Bs</span>
           </div>
         </div>
 
@@ -45,25 +45,24 @@ export default function BcvCard() {
           <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 shadow-inner">
             <FaEuroSign className="text-blue-600 text-2xl" />
           </div>
-          <span className="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em] mb-2">Euro Oficial</span>
+          <span className="text-[10px] font-black text-gray-800 uppercase tracking-[0.2em] mb-2">Euro Oficial</span>
           <div className="flex items-baseline gap-2">
             <span className="text-4xl sm:text-5xl font-black text-slate-800 tracking-tighter">
               {data?.euro?.toFixed(2)}
             </span>
-            <span className="text-sm font-bold text-slate-400 uppercase">Bs</span>
+            <span className="text-sm font-bold text-slate-800 uppercase">Bs</span>
           </div>
         </div>
 
       </div>
 
-      <div className="flex justify-center w-full">
+      {/* <div className="flex justify-center w-full">
         <div className="flex items-center gap-3 bg-slate-900/60 backdrop-blur-xl border border-white/20 px-8 py-3 rounded-full text-white shadow-lg">
-          <FaCalendarAlt className="text-blue-400 text-sm" />
           <span className="text-[10px] sm:text-xs font-bold uppercase tracking-widest">
             Fecha Valor: {data?.fecha}
           </span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
